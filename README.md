@@ -18,4 +18,5 @@ Eğer mevcut konteyneri yeniden oluşturmak istiyorsanız, önce onu durdurup si
 
 
 sudo docker stop neova
+
 sudo docker rm neova
