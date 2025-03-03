@@ -9,3 +9,13 @@ sudo docker pull neovaprotocol/provider && sudo docker run -d --name neova --res
 screen -S neova
 
 docker logs -f neova
+
+
+
+
+Mevcut Konteyneri Kaldırarak Yeniden Başlatma
+Eğer mevcut konteyneri yeniden oluşturmak istiyorsanız, önce onu durdurup silmeniz gerekir:
+
+
+sudo docker stop neova
+sudo docker rm neova
