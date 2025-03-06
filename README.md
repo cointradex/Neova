@@ -6,7 +6,6 @@ sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl 
 
 sudo docker pull neovaprotocol/provider && sudo docker run -d --name neova --restart always -e EVM_ADDRESS=evmadres neovaprotocol/provider
 
-screen -S neova
 
 docker logs -f neova
 
